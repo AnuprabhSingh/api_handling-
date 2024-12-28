@@ -9,15 +9,29 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body class="">
     <header class="title-container">
         <div class="title-content">
-            <h2 class="title">Where in the world?</h2>
+            <h2 class="title"><a href="/">Where in the world?</a></h2>
             <p> <i class="fa-regular fa-moon"></i> &nbsp;Dark Mode</p>
         </div>
     </header>
 
     <main>
+        <div class="search-filter-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for a country ..." >
+            </div>
+            <select class="filter">
+                <option hidden>Filter By Region</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Africa">Africa</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
         <div class="countries-container"></div>
     </main>
 </body>
