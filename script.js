@@ -3,6 +3,7 @@ const filterByRegion = document.querySelector('.filter')
 const searchInput = document.querySelector('.search-container input')
 const theme = document.querySelector('.theme-change')
 
+
 let allCountriesData
 
 fetch('https://restcountries.com/v3.1/all')
