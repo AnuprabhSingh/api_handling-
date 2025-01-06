@@ -16,7 +16,7 @@ body{
 body.dark{
 
     --background-color:hsl(207,26%,17%);
-    --text-color: white
+    --text-color: white;
     --elements-color:hsl(209,23%,22%);
 
 }
@@ -120,6 +120,8 @@ a{
     outline: none;
     padding: 16px;
     width:80%;
+    background-color: inherit;
+    color: inherit;
 }
 .search-container input::placeholder{
     color: #999;
@@ -132,6 +134,8 @@ a{
     outline: none;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
+    background-color: inherit;
+    color: inherit;
 }
 @media(max-width:768px){
     .countries-container{
