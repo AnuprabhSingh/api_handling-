@@ -1,6 +1,7 @@
 const cardContainer = document.querySelector('.countries-container')
 const filterByRegion = document.querySelector('.filter')
 const searchInput = document.querySelector('.search-container input')
+const theme = document.querySelector('.theme-change')
 
 let allCountriesData
 
@@ -48,4 +49,8 @@ searchInput.addEventListener('input',(e)=>{
     })
     renderCountries(filtered)
     console.log(filtered);
+})
+
+theme.addEventListener('click',()=>{
+    document.body.classList.toggle('dark')
 })
