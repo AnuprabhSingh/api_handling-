@@ -69,3 +69,30 @@
         max-width: 400px;
     }
 }
+
+body.dark-mode {
+    background-color: #2b3945; 
+    color: #ffffff; 
+}
+
+body.dark-mode .title-container {
+    background-color: #202c37;
+}
+
+body.dark-mode .back-button {
+    background-color: #202c37;
+    color: #ffffff;
+}
+
+body.dark-mode .country-details img {
+    border-color: #ffffff; 
+}
+
+body.dark-mode .border-countries a {
+    background-color: #202c37;
+    color: #ffffff;
+}
+
+body.dark-mode .border-countries a:hover {
+    background-color: #46525f;
+}
